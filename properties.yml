@@ -1,0 +1,18 @@
+copybot:
+  chain_url: "http://localhost:10999"
+  my_pk: ""
+  my_address: ""
+  main_coin_contract_address: "0x0000000000000000000000000000000000000000"
+  main_coin_symbol: "BNB"
+  execute_orders: 0 # 0 == False, 1 == True
+  execute_sell_orders: 0 # 0 == False, 1 == True
+  check_min_amount: 1 # 0 == False, 1 == True
+  buy_amount_usd: 3.50
+  min_amount_to_keep: 0.001 
+  maxgwei: 10
+  max_slippage: 0.15
+
+bsc_trades:
+  api_key: ""
+  listen_to_address: ""
+  check_freshness: 1 # 0 == False, 1 == True
